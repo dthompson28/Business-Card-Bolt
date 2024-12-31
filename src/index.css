@@ -1,0 +1,175 @@
+body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #cecabe;
+      color: #00674f;
+    }
+
+    .config-form {
+      max-width: 600px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-group {
+      margin-bottom: 1rem;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: 500;
+    }
+
+    .form-group input {
+      width: 100%;
+      padding: 0.5rem;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+
+    .color-inputs {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+
+    .color-input-group {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .color-input-group input[type="color"] {
+      width: 50px;
+      padding: 0;
+      height: 38px;
+    }
+
+    .color-input-group input[type="text"] {
+      flex: 1;
+    }
+
+    .preview {
+      margin-top: 2rem;
+      padding: 1rem;
+      background: #f5f5f5;
+      border-radius: 4px;
+    }
+
+    .preview code {
+      display: block;
+      white-space: pre-wrap;
+      word-break: break-all;
+      padding: 1rem;
+      background: #1a1a1a;
+      color: #fff;
+      border-radius: 4px;
+    }
+
+    .copy-button {
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      background: #00674f;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .copy-button:hover {
+      opacity: 0.9;
+    }
+
+    .card-example {
+      width: 350px;
+      margin: 20px auto;
+      background-color: #f5e6d7;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+
+    .header {
+      background-color: #00674f;
+      padding: 20px;
+      position: relative;
+      text-align: center;
+    }
+
+    .header img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+
+    .profile-pic {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      border: 3px solid #fff;
+      margin: -40px auto 10px;
+      display: block;
+    }
+
+    .full-photo-header {
+      height: 200px;
+      background-image: url('https://storage.googleapis.com/msgsndr/k2RYl5ovpeYkLh1QBDHE/media/676b8a847a5c4cf761681d1a.png');
+      background-size: cover;
+      background-position: center;
+    }
+
+    .card-content {
+      text-align: center;
+      padding: 20px;
+    }
+
+    .card-content h2 {
+      margin: 10px 0;
+      color: #be5103;
+    }
+
+    .card-content p {
+      margin: 5px 0;
+      color: #326872;
+    }
+
+    .contact-info {
+      margin: 10px 0;
+      text-align: left;
+    }
+
+    .contact-info a {
+      display: block;
+      margin: 5px 0;
+      color: #326872;
+      text-decoration: none;
+      padding: 10px;
+      background-color: #cecabe;
+      border-radius: 5px;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: space-around;
+      padding: 10px 0;
+    }
+
+    .buttons button {
+      background-color: #326872;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .buttons button:hover {
+      background-color: #be5103;
+    }
